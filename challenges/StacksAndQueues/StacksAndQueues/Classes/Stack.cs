@@ -12,7 +12,7 @@ namespace StacksAndQueues.Classes
         /// Push method creates a new node, sets the value to the arg
         /// The new nodes next is going to = top then top with then = node
         /// </summary>
-        /// <param name="number"></param>
+        /// <param name="number"> input number</param>
         public void Push(int number)
         {
             Node node = new Node();

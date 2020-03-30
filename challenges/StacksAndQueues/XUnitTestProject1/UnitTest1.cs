@@ -87,13 +87,82 @@ namespace XUnitTestProject1
         }
 
         [Fact]
-        public int CanEnqueueIntoQueue()
+        public void CanEnqueueIntoQueue()
         {
             Queue queue = new Queue();
             queue.Enqueue(3);
 
             int number = queue.Peek();
             Assert.Equal(3, number);
+
+        }
+
+        [Fact]
+        public void CanEnqueueMultipleValuesIntoQueue()
+        {
+            Queue queue = new Queue();
+            queue.Enqueue(3);
+            queue.Enqueue(5);
+            queue.Enqueue(7);
+
+            int number = queue.Peek();
+            Assert.Equal(3, number);
+
+        }
+
+        [Fact]
+
+        public void CanDequeue()
+        {
+            Queue queue = new Queue();
+            queue.Enqueue(3);
+            queue.Enqueue(5);
+            queue.Enqueue(7);
+
+            int number = queue.Dequeue();
+            Assert.Equal(3, number);
+        }
+
+        [Fact]
+
+        public void CanPeekIntoQueue()
+        {
+            Queue queue = new Queue();
+            queue.Enqueue(3);
+            queue.Enqueue(5);
+            queue.Enqueue(7);
+
+            int number = queue.Peek();
+            Assert.Equal(3, number);
+        }
+
+        [Fact]
+        public void CanEmptyQueue()
+        {
+            Queue queue = new Queue();
+            queue.Enqueue(3);
+            queue.Enqueue(5);
+            queue.Dequeue();
+            queue.Dequeue();
+
+            bool result = queue.IsEmpty();
+            Assert.True(result);
+        }
+
+        [Fact]
+        public void CanInstantialEmptyQueue()
+        {
+            Queue queue = new Queue();
+            bool result = queue.IsEmpty();
+            Assert.True(result); 
+        }
+
+        [Fact]
+        public void RaisesExceptionCallingPeekOrDequeueOnEmpty()
+        {
+            Queue queue = new Queue();
+            Exception exception = Record.Exception(() => queue.Dequeue());
+            Assert.IsType<Exception>(exception);
 
         }
     }
