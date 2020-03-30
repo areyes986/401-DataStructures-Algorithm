@@ -1,8 +1,8 @@
 # data-structures-and-algorithms
 
-- [Array Shift](./code-challenges/ArrayShift/arrayshift.md)  
-- [Binary Search](./code-challenges/arrayBinarySeach/BinarySearch/BinarySearch/binarysearch.md)
-- [Linked List](./code-challenges/LinkedList/linkedlist.md)
-- [Insert Before](./code-challenges/LinkedList/insertBefore.md)
-- [Kth At The End](./code-challenges/LinkedList/Kth.md)
-- [Merge Linked Lists](./code-challenges/LLMerge/LLMerge.md)
+- [Array Shift](./challenges/ArrayShift/arrayshift.md)  
+- [Binary Search](./challenges/arrayBinarySeach/BinarySearch/BinarySearch/binarysearch.md)
+- [Linked List](./challenges/LinkedList/linkedlist.md)
+- [Insert Before](./challenges/LinkedList/insertBefore.md)
+- [Kth At The End](./challenges/LinkedList/Kth.md)
+- [Merge Linked Lists](./challenges/LLMerge/LLMerge.md)
