@@ -8,4 +8,5 @@
 - [Merge Linked Lists](./challenges/LLMerge/LLMerge.md)
 - [Stacks And Queues](./challenges/StacksAndQueues/stacks-queues.md)
 - [QueueWithStacks](./challenges/QueueWithStacks/queue-with-stacks.md)
+- [Animal Shelter](./challenges/FIFOAnimalShelter/animalShelter.md)  
 - [Multi Bracket Validation](./challenges/MultiBracketValidation/bracket.md)
