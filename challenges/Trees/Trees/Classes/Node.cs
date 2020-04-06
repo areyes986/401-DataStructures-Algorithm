@@ -10,5 +10,6 @@ namespace Trees.Classes
         public Node LeftChild { get; set; }
         public Node RightChild { get; set; }
 
+
     }
 }

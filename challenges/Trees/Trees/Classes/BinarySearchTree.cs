@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Trees.Classes
 {
-    class BinarySearchTree
+    public class BinarySearchTree
     {
         public Node Root { get; set; }
 
@@ -12,6 +12,7 @@ namespace Trees.Classes
         {
             if (root == null)
             {
+                root = new Node();
                 root.Value = value;
             }
             else if (value < root.Value)
