@@ -10,3 +10,4 @@
 - [QueueWithStacks](./challenges/QueueWithStacks/queue-with-stacks.md)
 - [Animal Shelter](./challenges/FIFOAnimalShelter/animalShelter.md)  
 - [Multi Bracket Validation](./challenges/MultiBracketValidation/bracket.md)
+- [Trees](./challenges/Trees/trees.md)
