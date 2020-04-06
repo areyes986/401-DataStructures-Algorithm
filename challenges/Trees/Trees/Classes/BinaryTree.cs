@@ -14,6 +14,12 @@ namespace Trees.Classes
         }
 
         List<int> ListNode = new List<int>();
+
+        /// <summary>
+        /// This has a preOrder traversal which means it traverses from the root to left to right. 
+        /// </summary>
+        /// <param name="root">the trees root</param>
+        /// <returns>the values in an array</returns>
         public int[] PreOrder(Node root)
         {
 
@@ -30,7 +36,11 @@ namespace Trees.Classes
             return ListNode.ToArray();
 
         }
-
+        /// <summary>
+        /// InOrder traverses from left to root to right
+        /// </summary>
+        /// <param name="root">the trees root</param>
+        /// <returns>the int array</returns>
         public int[] InOrder(Node root)
         {
             if (root.LeftChild != null)
@@ -45,6 +55,11 @@ namespace Trees.Classes
             return ListNode.ToArray();
         }
 
+        /// <summary>
+        /// This traverses right left to right to root.
+        /// </summary>
+        /// <param name="root">the trees root</param>
+        /// <returns>the value int array</returns>
         public int[] PostOrder(Node root)
         {
             if (root.LeftChild != null)
