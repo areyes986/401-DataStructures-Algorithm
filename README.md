@@ -11,3 +11,4 @@
 - [Animal Shelter](./challenges/FIFOAnimalShelter/animalShelter.md)  
 - [Multi Bracket Validation](./challenges/MultiBracketValidation/bracket.md)
 - [Trees](./challenges/Trees/trees.md)
+- [FizzBuzz](./challenges/FizzBuzzTree/fizzbuzz.md)
