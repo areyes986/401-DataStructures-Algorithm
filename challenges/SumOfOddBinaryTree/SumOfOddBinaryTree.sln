@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfOddBinaryTree", "SumOfOddBinaryTree\SumOfOddBinaryTree.csproj", "{1FD2948D-3907-4E51-9EDA-53068E8165BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{4CA8A223-2716-4B4F-869A-0AFE33AA2D96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FD2948D-3907-4E51-9EDA-53068E8165BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD2948D-3907-4E51-9EDA-53068E8165BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD2948D-3907-4E51-9EDA-53068E8165BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD2948D-3907-4E51-9EDA-53068E8165BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA8A223-2716-4B4F-869A-0AFE33AA2D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA8A223-2716-4B4F-869A-0AFE33AA2D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA8A223-2716-4B4F-869A-0AFE33AA2D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA8A223-2716-4B4F-869A-0AFE33AA2D96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71B1C9E7-293D-4B17-B1B5-A7368CF35E38}
+	EndGlobalSection
+EndGlobal
