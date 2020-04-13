@@ -41,7 +41,7 @@ namespace BreadthFirst.Classes
         /// Then have the temps next = null to pop it off then just return the value
         /// </summary>
         /// <returns></returns>
-        public int Dequeue()
+        public Node Dequeue()
         {
             if (Front == null)
             {
@@ -52,7 +52,7 @@ namespace BreadthFirst.Classes
                 Node temp = Front;
                 Front = Front.Next;
                 temp.Next = null;
-                return temp.Value;
+                return temp;
             }
 
         }
