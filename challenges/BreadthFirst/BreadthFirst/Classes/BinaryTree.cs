@@ -75,7 +75,7 @@ namespace BreadthFirst.Classes
             return ListNode.ToArray();
         }
 
-        public List<int> BreadthFirst(BinaryTree tree)
+        public static List<int> BreadthFirst(BinaryTree tree)
         {
             // instantiate a queue to use the queue methods
             Queue queue = new Queue();
@@ -86,10 +86,20 @@ namespace BreadthFirst.Classes
             while (queue.Front != null)
             {
                 Node front = queue.Dequeue();
+                // adding the values into the list
                 ListOfValues.Add(front.Value);
+
+                // using the breadth first traversal
+                if (front.LeftChild != null)
+                {
+                    queue.Enqueue(front.LeftChild);
+                }
+                if (front.RightChild != null)
+                {
+                    queue.Enqueue(front.RightChild);
+                }
             }
-
-
+            return ListOfValues;
         }
     }
 }
