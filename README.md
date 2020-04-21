@@ -12,3 +12,4 @@
 - [Multi Bracket Validation](./challenges/MultiBracketValidation/bracket.md)
 - [Trees](./challenges/Trees/trees.md)
 - [FizzBuzz](./challenges/FizzBuzzTree/fizzbuzz.md)
+- [Insertion Sort](./challenges/InsertionSort/BLOG.md)
