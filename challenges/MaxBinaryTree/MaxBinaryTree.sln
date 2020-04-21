@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxBinaryTree", "MaxBinaryTree\MaxBinaryTree.csproj", "{D9AD541D-0CED-4A7A-991A-9EDC90207D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{EA1D6BFE-5071-4256-B89B-5176F7D0F9B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9AD541D-0CED-4A7A-991A-9EDC90207D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AD541D-0CED-4A7A-991A-9EDC90207D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AD541D-0CED-4A7A-991A-9EDC90207D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AD541D-0CED-4A7A-991A-9EDC90207D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1D6BFE-5071-4256-B89B-5176F7D0F9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1D6BFE-5071-4256-B89B-5176F7D0F9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1D6BFE-5071-4256-B89B-5176F7D0F9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1D6BFE-5071-4256-B89B-5176F7D0F9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6757AF1-CA76-4546-B380-F5EC71CC61FA}
+	EndGlobalSection
+EndGlobal
