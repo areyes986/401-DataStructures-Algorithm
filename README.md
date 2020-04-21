@@ -15,3 +15,4 @@
 - [Breadth First](./challenges/BreadthFirst/breadthfirst.md)
 - [Max Value Binary Tree](./challenges/MaxBinaryTree/maxBinaryTree.md)
 - [Sum of Odd Num in Binary Tree](./challenges/SumOfOddBinaryTree/oddnum.md)
+- [Insertion Sort](./challenges/InsertionSort/BLOG.md)
