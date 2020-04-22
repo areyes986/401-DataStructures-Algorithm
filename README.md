@@ -16,3 +16,4 @@
 - [Max Value Binary Tree](./challenges/MaxBinaryTree/maxBinaryTree.md)
 - [Sum of Odd Num in Binary Tree](./challenges/SumOfOddBinaryTree/oddnum.md)
 - [Insertion Sort](./challenges/InsertionSort/Blog.md)
+-[Merge Sort](./challenges/MergeSort/Blog.md)
