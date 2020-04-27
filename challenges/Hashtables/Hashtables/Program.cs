@@ -13,11 +13,11 @@ namespace Hashtables
         public static void AddToBucket()
         {
             Hashtable ht = new Hashtable();
-            int mochiNum = ht.Hash("mochi is a");
-            ht.Add("mochi is a", "fool");
-            //Console.WriteLine(ht.Bucket[mochiNum]);
+            int num = ht.Hash("jin");
+            ht.Add("jin", "fool");
+            //Console.WriteLine(ht.Bucket[num]);
             
-            Console.WriteLine(ht.Get("mochi is a"));
+            Console.WriteLine(ht.Get("jin"));
         }
 
 
