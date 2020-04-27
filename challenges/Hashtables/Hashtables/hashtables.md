@@ -24,6 +24,14 @@ If the key/value is: "hello", "world", in the get method,
 
 ---
 
+### Big O
+
+| Time | Space |
+| :----------- | :----------- |
+| O(1) | O(1)|
+
+---
+
 ### Change Log    
 1.3: *readme* - 4/27/2020  
 1.2: *Created tests* - 4/27/2020  

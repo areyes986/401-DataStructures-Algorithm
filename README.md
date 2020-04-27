@@ -18,4 +18,4 @@
 - [Insertion Sort](./challenges/InsertionSort/Blog.md)  
 - [Merge Sort](./challenges/MergeSort/Blog.md)  
 - [Quick Sort](./challenges/QuickSort/Blog.md)  
-- [Hashtables](./challenges/Hashtables/hashtables.md)
+- [Hashtables](./challenges/Hashtables/Hashtables/hashtables.md)
