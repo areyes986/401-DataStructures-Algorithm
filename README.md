@@ -19,3 +19,4 @@
 - [Merge Sort](./challenges/MergeSort/Blog.md)  
 - [Quick Sort](./challenges/QuickSort/Blog.md)  
 - [Hashtables](./challenges/Hashtables/Hashtables/hashtables.md)
+- [Repeated Word](./challenges/RepeatedWords/repeatedword.md)
