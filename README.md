@@ -21,3 +21,4 @@
 - [Hashtables](./challenges/Hashtables/Hashtables/hashtables.md)
 - [Repeated Word](./challenges/RepeatedWords/repeatedword.md)
 - [Tree Intersection](./challenges/TreeIntersection/treeintersection.md)
+- [Left Join](./challenges/LeftJoin/leftjoin.md)
